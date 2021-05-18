@@ -230,6 +230,7 @@ public class TvShowDetailsActivity extends AppCompatActivity {
         activityTvShowDetailsBinding.textNetworkCountry.setVisibility(View.VISIBLE);
         activityTvShowDetailsBinding.textStatus.setVisibility(View.VISIBLE);
         activityTvShowDetailsBinding.textStarted.setVisibility(View.VISIBLE);
+        //This is a demo comment
     }
 
 }
