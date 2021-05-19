@@ -14,7 +14,9 @@
         android:theme="@style/Theme.TvShows"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".activities.TvShowDetailsActivity"></activity>
+        <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".activities.WatchlistActivity" />
+        <activity android:name=".activities.TvShowDetailsActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
